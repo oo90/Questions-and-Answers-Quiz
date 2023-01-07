@@ -1,0 +1,47 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body{
+ background-color: rgb(62, 96, 99);
+ justify-content: center;
+  display: flex;
+align-items: center;
+}
+
+.questions{
+background-color: rgb(205, 138, 50);
+width: fit-content;
+height: fit-content;
+
+}
+
+.Q{
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+#submit{
+  margin-top: 20px;
+  width:5rem;
+  height: 30px;
+  background-color: brown;
+  color: white;
+  border-radius: 20px;
+}
+
+#submit:hover{
+background-color: chartreuse;
+color: black;
+}
+
+.submit{
+  padding-left: 20px;
+  
+}
+
+#result{
+  margin-top: 20px;
+  padding-left: 20px;
+}

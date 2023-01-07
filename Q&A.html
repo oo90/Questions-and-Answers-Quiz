@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Q&A.css" />
+
+    <title>Quiz</title>
+  </head>
+  <body>
+    <form name="quiz" id="quiz" class="questions">
+      <div class="Q">
+        <p>Q1. What is the world's largest land mammal?</p>
+        <p><input type="radio" name="question1" value="Hippopotamus" />A.Hippopotamus</p>
+        <p><input type="radio" name="question1" value="Lion" />B. Lion</p>
+        <p><input type="radio" name="question1" value="Elephant" />C. Elephant</p>
+        <p><input type="radio" name="question1" value="Whale" />D. Whale</p>
+      </div>
+
+      <div class="Q">
+        <p>Q2. Which Middle Eastern city is also the name of a type of artichoke?</p>
+        <p><input type="radio" name="question2" value="Jerusalem" />A. Jerusalem</p>
+        <p><input type="radio" name="question2" value="Damascus" />B. Damascus</p>
+        <p><input type="radio" name="question2" value="Riyadh" />C. Riyadh</p>
+        <p><input type="radio" name="question2" value="Jeddah" />D. Jeddah</p>
+      </div>
+
+      <div class="Q">
+        <p>Q3. With which sport is Silverstone most associated?</p>
+        <p><input type="radio" name="question3" value="Tennis" />A. Tennis</p>
+        <p><input type="radio" name="question3" value="Football" />B. Football</p>
+        <p><input type="radio" name="question3" value="Motor Racing" />C. Motor Racing</p>
+        <p><input type="radio" name="question3" value="Horse Racing" />D. Horse Racing</p>
+      </div>
+
+
+      <div class="Q">
+        <p>Q4. In what US State is the city Nashville?</p>
+        <p><input type="radio" name="question4" value="Ohio"/>A. Ohio</p>
+        <p><input type="radio" name="question4" value="Tennessee" />B. Tennessee</p>
+        <p><input type="radio" name="question4" value="Texas" />C. Texas</p>
+       <p><input type="radio" name="question4" value="California" />D. California</p>
+      </div>
+
+
+      <div class="submit">
+      <input type="button" value="Submit" id="submit" onclick="check()">
+      </div>
+
+      <p id="result"></p> 
+    </form>
+
+    
+
+    <script src="Q&A.js"></script>
+  </body>
+</html>
